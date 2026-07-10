@@ -8,6 +8,7 @@ ARG VERSION=0.0.1.65534-local
 
 WORKDIR /slskd
 
+COPY .prettierrc .
 COPY bin bin/.
 COPY src/web src/web/.
 
