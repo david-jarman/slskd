@@ -3,6 +3,7 @@ const overrides = {
   'id-length': 'off', // noisy
   'no-console': 'off', // noisy
   'no-eq-null': 'off', // noisy
+  'no-negated-condition': 'off', // noisy
   'prettier/prettier': ['error', { endOfLine: 'auto' }],
   'react/forbid-component-props': 'off', // noisy
   'react/prop-types': 'off', // noisy
